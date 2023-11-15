@@ -1,0 +1,27 @@
+.andrea{ 
+width: 170px; 
+height:120px; 
+border: 1px; 
+
+} 
+
+.hola{
+
+  color: rgb(14, 14, 14);
+  background-color: rgb(255, 196, 241);
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  bottom: 30%;
+  left: 220px;
+  background-color: #ffc7e4;
+  font-weight:  bolder;
+  font-size: 17px;
+}
+
+.mundo{
+    text-align: center;
+    border-radius: 6px;
+    width: 200px;
+  height: 30px;
+}

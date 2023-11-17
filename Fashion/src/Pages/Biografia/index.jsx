@@ -9,8 +9,8 @@ function Biografico() {
     
       <>
         <Layout>
-         Biography
-       
+        Biography
+        
         <Andrea/>
         <Nombre/>
         </Layout>

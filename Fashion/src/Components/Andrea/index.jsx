@@ -5,7 +5,7 @@ export const Andrea = () => {
         
      <div className="sol">
         <figure>
-            <img src="https://i.pinimg.com/originals/48/49/de/4849de5dfa2387487d35b34ec80ccb4c.jpg"></img>
+            <img src="https://media-bog1-1.cdn.whatsapp.net/v/t61.24694-24/400985463_871957907916433_33036724837939003_n.jpg?ccb=11-4&oh=01_AdTazh-e_lmIsxWb9DlcE72EeAfVXpp9FYw1KPncQgPCWA&oe=6564D533&_nc_sid=e6ed6c&_nc_cat=103"></img>
         </figure>
        
         <h1 className='sd'>Contact</h1>
@@ -25,11 +25,11 @@ export const Andrea = () => {
         &nbsp;
         &nbsp;
         &nbsp;
-        <hr className='re'></hr>
+
         <h1 className='jp'>More information</h1>
        
         
-        <h1 className='ju'>- Total availability</h1>
+        <h1 className='ju'>-Availability</h1>
         
     
 

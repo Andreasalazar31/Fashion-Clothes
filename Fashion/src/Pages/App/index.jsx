@@ -10,7 +10,7 @@ export const App = () => {
     const AppRoutes = () => {
         let routes = useRoutes([
             {path: '/Home', element: <Home/>},
-            {path: 'Contact', element: <Contact></Contact>},
+            {path: '/Contacto', element: <Contact/>},
             {path: '/Biografia', element: <Biografico></Biografico>}
         ])
         return routes

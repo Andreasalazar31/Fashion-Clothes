@@ -3,7 +3,7 @@
     width: 300px;
     height: 30px;
     position: absolute;
-    bottom: 70%;
+    bottom: 67%;
     left: 30px;
    
     
@@ -79,8 +79,8 @@ background-color: rgb(11, 11, 11);
   width: 190px;
   height: 30px;
   position: absolute;
-  top: 598px;
-  left: 20px;
+  top: 320px;
+  left: 870px;
   font-weight:bolder;
   font-size: 17px;
 }
@@ -89,9 +89,8 @@ background-color: rgb(11, 11, 11);
     
  
   position: absolute;
-  top: 630px;
-  left: 19px;
-  
-  font-size: 17px;
+  top: 350px;
+  left: 870px;
+  font-size: 19px;
 }
 

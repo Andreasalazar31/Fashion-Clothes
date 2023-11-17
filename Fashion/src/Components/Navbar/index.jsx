@@ -4,7 +4,7 @@ export const NavBar = () => {
     const activeStyle = ' underline underline-offset-4'
   return (
     <nav 
-    className=" flex justify-between items-center fixed z-12 w-full py-2 px-9 text-sm font-light bg-pink-300 text-black top-0">
+    className=" flex justify-between items-center z-10 w-full py-1 px-10 text-sm font-light bg-pink-300 text-black top-0">
         
         <img  className="andrea"
         src="https://marketplace.canva.com/EAFg-uOorvQ/1/0/1600w/canva-logotipo-boutique-de-ropa-moderno-negro-y-rosa-uoDu8e-9ixg.jpg "  >
@@ -16,24 +16,24 @@ export const NavBar = () => {
                 <li>
                     <NavLink to='/Home'
                         className={({ isActive }) => isActive ? activeStyle : undefined }>
-                        Home
+                        <h1 className="le">HOME</h1>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to='/contacto'
                         className= {({ isActive }) => isActive ? activeStyle : undefined } >
-                        Contact
+                       <h1 className="sa">CONTACT</h1> 
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to='/Biografia'
                         className={({ isActive }) => isActive ? activeStyle : undefined }>
-                       Biography
+                     <h1 className="fe">BIOGRAPHY</h1>
                     </NavLink>
                 </li>
                 <a className="search-bar font-medium text-sm hover:text-black">
                     <input  className="mundo"type="text" placeholder="Buscar..."/>
-                    <button>&nbsp;&nbsp;Buscar</button>
+                    <button className="kp">&nbsp;&nbsp;Buscar</button>
                 </a>
             </ul>
         </nav>     
